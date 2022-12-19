@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:paddingTop="50dp"
+        android:weightSum="1.0">
+
+        <Button
+            android:id="@+id/join_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/red"
+            android:alpha="0.70"
+            android:text="JOIN"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/create_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/light_gray"
+            android:alpha="0.70"
+            android:text="CREATE"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="100dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="30sp"
+            android:layout_gravity="left"
+            android:layout_margin="25dp"
+
+            android:text="Username:" />
+
+        <EditText
+            android:id="@+id/username_response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="26sp"
+            android:layout_margin="0dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/join_code_input_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="50dp">
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:maxLength="1"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:maxLength="1"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:maxLength="1"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:maxLength="1"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:maxLength="1"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:maxLength="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <Button
+        android:id="@+id/join_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="JOIN" />
+    </LinearLayout>
+</LinearLayout>
